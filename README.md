@@ -8,6 +8,7 @@
 - CRUD
 - Consumo de API's
 
+## Linguagens Utilizadas
 
 > JavaScript
 
