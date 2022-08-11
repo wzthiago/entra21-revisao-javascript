@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Revisão JavaScript</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx' crossorigin='anonymous'>
+</head>
+
+<body>
+
+    <h3 class="text-center">Tem bastante coisa estão no Console ;)</h3>
+
+    <header class="row">
+        <section class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Javascript Revisão</h4>
+                    <button id="add" class="btn btn-secondary mt-3">Adicionar elemento</button>
+                    <button id="clean" class="btn btn-danger mt-3">Limpar elementos</button>
+                    <button id="" class="btn btn-light mt-3"><a href="/crud.html"
+                            class="btn btn-outline-dark">CRUD</a></button>
+                    <button id="" class="btn btn-light mt-3"><a href="/consumindoApi.html"
+                            class="btn btn-outline-dark">Consumindo API</a></button>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="row">
+        <section class="col">
+            <div class="card">
+                <div class="cardbody mt-3">
+                    <h1>Teste</h1>
+                    <h3 id="titulo">Título exemplo, sendo localizado por Id</h3>
+
+                    <h5 class="subtitulo">Subtitulo, localizado por class</h5>
+                    <h5 class="subtitulo">Subtitulo, localizado por class...</h5>
+
+                    <p id="paragrafo_1">Paragrafo - localizando por <tag> / javascript...</p>
+                    <p>Paragrafo localizado <tag>
+                    </p>
+                    <p>Paragrafo localizado...<tag>
+                    </p>
+
+                    <p id="paragrafo_jQuery">Paragrafo será lido por jQuery</p>
+
+                    <ul>
+                        <li>Texto</li>
+                        <li>Alterado</li>
+                        <li>Com</li>
+                        <li>jQuery</li>
+                        <li>Teste</li>
+                        <li>...</li>
+                    </ul>
+
+                    <h5 class="tituloExemplo"></h5>
+                    <h5 class="tituloExemplo"></h5>
+                    <h5 class="tituloExemplo"></h5>
+
+                    <br>
+                    <br>
+                    <h4>Formulario</h4>
+                    <form action="">
+                        <label for="nome">Digite um nome:</label>
+                        <input type="text" name="nome" id="nome" class="form-control">
+                        <br>
+                        <label for="linguagem">Digite sua linguegem de programaçcão favorita:</label>
+                        <input type="text" name="linguagem" id="linguagem" class="form-control">
+                        <br>
+                        <button type="submit" class="btn btn-primary" id="sendData">Enviar</button>
+                    </form>
+                    <br>
+                    <nav>
+                        <ol>
+                            <li><a href="">Variáveis</a> Está no console...</li>
+                            <li><a href="">Manipular html com Javascript</a></li>
+                            <li><a href="">Eventos entre HTML e JS</a></li>
+                            <li><a href="">CRUD</a></li>
+                            <li><a href="">Consumindo APIs</a></li>
+                            <br>
+                            <button id="conteudo" class="btn btn-primary mt-3"
+                                onclick="addConteudo(prompt('O que deseja escrever?'))">Ecreva para adicionar
+                                conteúdo</button>
+                            <button id="clickMensagem" class="btn btn-success mt-3" onclick="">jQuery Button</button>
+
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa'
+        crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src='/js/main.js'></script>
+</body>
+
+</html>
