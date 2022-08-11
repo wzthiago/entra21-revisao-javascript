@@ -4,7 +4,7 @@
 
 - Variáveis
 - Manipulando html com JavaScript
-- Eventos entre HTML e JSC
+- Eventos entre HTML e JS
 - CRUD
 - Consumo de API's
 
